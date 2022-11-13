@@ -1,0 +1,79 @@
+    @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Nunito:wght@200&family=Roboto+Condensed:wght@300&family=Sono:wght@200&display=swap');
+
+    ::placeholder {
+      color: #CAFAFE;
+    }
+
+    .title {
+      margin: auto;
+      text-align: center;
+      margin-top: 1rem;
+      color: #EDF5E1;
+      font-weight: bold;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    body {
+      background-color: #5CDB95;
+      font-family: 'Sono', sans-serif;
+    }
+
+    #main {
+      text-align: center;
+      color: #05386B;
+      font-weight: 800;
+    }
+
+    .center {
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(50%, -50%);
+      text-align: center;
+      border-radius: 9%;
+      background-color: #379683;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+
+    #code:focus {
+      transition: width 1s;
+      width: 80%;
+    }
+
+    .submit {
+      margin-top: 2rem;
+      background-color: rgb(75, 83, 192);
+      font-family: 'Nunito', sans-serif;
+      color: white;
+      font-weight: bold;
+      border-radius: .3rem;
+      outline: none;
+      box-shadow: #ffffff;
+      box-sizing: 2rem;
+      border: none;
+      padding: 2rem;
+      transition: transform .2s;
+    }
+
+    .submit:hover {
+      transition: transform .3s;
+      transform: scale(1.2, 1.2);
+      cursor: pointer;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 5rem 5rem 5rem;
+    }
+
+    #code {
+        color: beige;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        font-weight: bold;
+    }
